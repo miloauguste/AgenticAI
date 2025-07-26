@@ -115,7 +115,7 @@ destination_flights =  {
 }
 
 
-def chat(message, history):
+def chat2(message, history):
     print (f"message: {message}")
     print (f"history: {history}")
     messages = [{"role": "system", "content": system_message}] + history + [{"role": "user", "content": message}]
@@ -132,6 +132,26 @@ def chat(message, history):
         response = openai.chat.completions.create(model=MODEL, messages=messages)
     print("talking")
     talker(response.choices[0].message.content)
+    return response.choices[0].message.content
+
+def chat(history):
+    print (f"history: {history}")
+    messages = [{"role": "system", "content": system_message}] + history
+    response = openai.chat.completions.create(model=MODEL, messages=messages, tools=tools)
+    print(f" reason = {response.choices[0].finish_reason}")
+    if response.choices[0].finish_reason == "tool_calls":
+        print("Chat: Got a tool_calls")
+        message = response.choices[0].message
+        print(f"the message is == {message}")
+        response = handle_tool_call(message)
+        # response, city = handle_tool_call(message)
+        messages.append(message)
+        messages.append(response)
+        response = openai.chat.completions.create(model=MODEL, messages=messages)
+    reply = response.choices[0].message.content
+    history += [{"role":"assistant", "content": reply}]
+    print("talking")
+    talker(reply)
     return response.choices[0].message.content
 
 
