@@ -1,0 +1,19 @@
+customer-support-agent/
+├── main.py                     # Main entry point
+├── requirements.txt            # Dependencies
+├── .env.example               # Environment template
+├── README.md                  # Setup instructions
+├── config.py                  # Configuration settings
+├── sentiment_analyzer.py      # Sentiment analysis tool
+├── intent_classifier.py      # Intent classification tool
+├── response_generator.py      # Response generation tool
+├── csv_processor.py           # CSV file processor
+├── pdf_processor.py           # PDF file processor
+├── text_processor.py          # Text file processor
+├── chunking_strategies.py     # Document chunking
+├── vector_store.py            # Vector database
+├── support_agent.py           # Main agent class
+├── streamlit_app.py           # Web interface
+└── data/                      # Data directory
+    ├── uploads/               # Uploaded files
+    └── processed/             # Processed data

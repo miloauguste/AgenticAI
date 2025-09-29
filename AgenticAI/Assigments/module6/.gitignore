@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+mod5/
+mod6/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data files that shouldn't be in git
+data/sessions/
+data/temp/
+data/uploads/
+data/backups/
+session_data/
+persistent_data/
+vector_store_data.pkl
+
+# Test files
+test_*.py
+debug_*.py
+*_test.py
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large files and datasets
+*.csv
+*.json
+*.xlsx
+*.pdf
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit secrets (never commit real secrets!)
+.streamlit/secrets.toml
+
+# Assignment and demo files
+3030_*.pdf
+3030_*.zip
+assignment_dataset_*.zip
+*.docx
+
+# Backup and copy files
+*_backup.*
+*_copy.*
+*- Copy.*
+*- Copy - Copy.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Model files and large data
+*.pkl
+*.joblib
+*.model
+models/
+checkpoints/
+
+# Documentation build
+docs/_build/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
