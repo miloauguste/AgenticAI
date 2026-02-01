@@ -1,0 +1,26 @@
+{
+  "last_user": "chadwick",
+  "fullscreen": false,
+  "music_enabled": true,
+  "session_start_time": null,
+  "daily_playtime": {
+    "2025-09-20": 38.86274358828862,
+    "2026-01-31": 18.015247213840485,
+    "2026-02-01": 2.2651119947433473
+  },
+  "music_volume": 0.10000000000000003,
+  "max_playtime_minutes": 15,
+  "parental_override": {
+    "active": false,
+    "expiry_time": 0,
+    "duration_hours": 0
+  },
+  "math_features": {
+    "shark_riddles_enabled": true,
+    "math_gates_enabled": true,
+    "shells_enabled": true,
+    "comparison_zones_enabled": true
+  },
+  "math_operation": "both",
+  "math_timer_enabled": false
+}

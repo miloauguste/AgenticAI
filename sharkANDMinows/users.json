@@ -1,0 +1,35 @@
+{
+  "Chadwick": {
+    "games_played": 11,
+    "highest_level": 9,
+    "total_score": 3900,
+    "shells": 0,
+    "math_stats": {
+      "problems_solved": 0,
+      "correct_answers": 0,
+      "riddles_escaped": 0
+    }
+  },
+  "chadwick": {
+    "games_played": 1,
+    "highest_level": 5,
+    "total_score": 500,
+    "shells": 0,
+    "math_stats": {
+      "problems_solved": 76,
+      "correct_answers": 67,
+      "riddles_escaped": 25
+    }
+  },
+  "chawick": {
+    "games_played": 118,
+    "highest_level": 12,
+    "total_score": 32800,
+    "shells": 0,
+    "math_stats": {
+      "problems_solved": 44,
+      "correct_answers": 38,
+      "riddles_escaped": 13
+    }
+  }
+}
